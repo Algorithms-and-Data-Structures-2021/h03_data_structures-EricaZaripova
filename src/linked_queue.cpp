@@ -29,7 +29,7 @@ void LinkedQueue::Dequeue() {
       front_ = node;
   }
     size_ -= 1;
-  }
+}
 
 
 void LinkedQueue::Clear() {
