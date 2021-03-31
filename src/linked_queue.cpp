@@ -30,7 +30,7 @@ void LinkedQueue::Dequeue() {
   }
     size_ -= 1;
   }
-}
+
 
 void LinkedQueue::Clear() {
     auto del_node = front_;
