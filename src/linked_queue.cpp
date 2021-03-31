@@ -19,7 +19,7 @@ void LinkedQueue::Enqueue(Element e) {
 void LinkedQueue::Dequeue() {
   if (size_ == 0) {
     throw std::logic_error("could not dequeue from empty queue");
-  } else if (size_ == 0) {
+  } else if (size_ == 1) {
       delete front_;
       back_ = nullptr;
       front_ = nullptr;
